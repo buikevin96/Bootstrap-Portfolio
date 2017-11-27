@@ -52,7 +52,7 @@ h2, h3 {
 	overflow: auto;
 	border-bottom: 2px solid #ccc;
 	position: fixed;
-	width: 100%;
+	width: 1800px;
 }
 
 /* IDs override whatever the basic settings are */
@@ -68,6 +68,10 @@ h2, h3 {
 	font-weight: 700;
 	font-size: 30px;
 	text-decoration: none;
+}
+
+.container-fluid {
+	margin-left: 25px;
 }
 
 nav {
@@ -98,8 +102,8 @@ nav a:first-child {
 	background: #fff;
 	padding: 30px;
 	margin: 0 0 40px 0;
-	width: 100%; /* Take up 100% of container */
-	max-width: 650px; /* Doesn't get any bigger */
+	width: 105%; /* Take up 100% of container */
+	max-width: 1150px; /* Doesn't get any bigger */
 	float: left;
 	border: 1px solid #ddd;
 }
@@ -115,8 +119,8 @@ nav a:first-child {
 .sidebar {
 	background: #fff;
 	padding: 30px;
-	width: 100%;
-	max-width: 270px;
+	width: 110%;
+	max-width: 300px;
 	float: right;
 	border: 1px solid #ddd;
 	margin-bottom: 20px;
@@ -224,11 +228,15 @@ input[type=submit] {
 
 .navbar-header {
 	text-align: left;
+	width: 100px;
 }
 
   nav {
-    clear: both;
-    float: left; 
+	clear: both;
+	float: left;
+	text-align: center;
+	position: relative;
+	margin-left: 10px;
   }
 
   nav a {
@@ -295,7 +303,7 @@ input[type=submit] {
 
 	.main-section {
 	  clear: both;
-	  width: 60%;
+	  width: 80%;
 	}
 
 	.auth-image {
